@@ -1,0 +1,109 @@
+[debug] [2019-12-16T10:43:24.305Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T10:43:24.307Z] Command:       /usr/local/bin/node /Users/Tony_Kung/npm/bin/firebase init
+[debug] [2019-12-16T10:43:24.307Z] CLI Version:   7.10.0
+[debug] [2019-12-16T10:43:24.307Z] Platform:      darwin
+[debug] [2019-12-16T10:43:24.307Z] Node Version:  v12.13.1
+[debug] [2019-12-16T10:43:24.308Z] Time:          Mon Dec 16 2019 18:43:24 GMT+0800 (Taipei Standard Time)
+[debug] [2019-12-16T10:43:24.308Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T10:43:24.308Z] 
+[debug] [2019-12-16T10:43:24.320Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-16T10:43:24.321Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/Tony_Kung/Desktop/Coding/racemoney
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2019-12-16T10:44:50.621Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-16T10:44:50.622Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-16T10:44:50.718Z] <<< HTTP RESPONSE 400
+[debug] [2019-12-16T10:44:50.719Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2019-12-16T10:44:51.622Z] <<< HTTP RESPONSE 401
+[debug] [2019-12-16T10:44:51.622Z] <<< HTTP RESPONSE BODY
+[debug] [2019-12-16T10:44:51.624Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2019-12-16T10:44:51.685Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at module.exports (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/lib/api.js:39:35)
+    at Request.self.callback (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.<anonymous> (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at IncomingMessage.<anonymous> (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:475:20)
+    at endReadableNT (_stream_readable.js:1184:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to create Google Cloud project. See firebase-debug.log for more info.
+[debug] [2019-12-16T10:45:00.005Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T10:45:00.011Z] Command:       /usr/local/bin/node /Users/Tony_Kung/npm/bin/firebase init
+[debug] [2019-12-16T10:45:00.011Z] CLI Version:   7.10.0
+[debug] [2019-12-16T10:45:00.011Z] Platform:      darwin
+[debug] [2019-12-16T10:45:00.011Z] Node Version:  v12.13.1
+[debug] [2019-12-16T10:45:00.012Z] Time:          Mon Dec 16 2019 18:45:00 GMT+0800 (Taipei Standard Time)
+[debug] [2019-12-16T10:45:00.012Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T10:45:00.012Z] 
+[debug] [2019-12-16T10:45:00.020Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-16T10:45:00.020Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/Tony_Kung/Desktop/Coding/racemoney
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-12-16T10:45:08.463Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-16T10:45:08.463Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-16T10:45:08.566Z] <<< HTTP RESPONSE 400
+[debug] [2019-12-16T10:45:08.568Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-12-16T10:45:08.683Z] <<< HTTP RESPONSE 401
+[debug] [2019-12-16T10:45:08.683Z] <<< HTTP RESPONSE BODY
+[debug] [2019-12-16T10:45:08.685Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2019-12-16T10:45:08.733Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at module.exports (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/lib/api.js:39:35)
+    at Request.self.callback (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.<anonymous> (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at IncomingMessage.<anonymous> (/Users/Tony_Kung/npm/lib/node_modules/firebase-tools/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:475:20)
+    at endReadableNT (_stream_readable.js:1184:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
